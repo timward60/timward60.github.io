@@ -1,0 +1,25 @@
+# Site settings
+title: Tim Timmy Timothy's Blog
+email: timward60@outlook.com
+baseurl: ""
+url: "https://www.timhward.net"
+twitter_username: timhward
+github_username:  timward60
+
+# Build settings
+plugins:
+  - jekyll-feed
+  - jekyll-theme-hamilton
+  - jekyll-remote-theme
+remote_theme: ngzhio/jekyll-theme-hamilton
+exclude:
+  - import.sh
+  - start.sh
+  - Gemfile
+  - Gemfile.lock
+
+# jekyll-theme-hamilton settings
+disqus: timhward
+author: Tim Ward
+avatar: https://s.gravatar.com/avatar/2c04db64747ec58cd55463eec83f9766?s=256
+paginate: 3
